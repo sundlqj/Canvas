@@ -1,0 +1,26 @@
+﻿<html>
+ <head>
+  <title> &lt;canvas&gt; 사용예 </title>
+ </head>
+ <body>
+	<header>
+		<h1>&lt;canvas&gt; 사용예 (과제 #03-02)</h1>
+	</header>
+	<section>
+		<article>
+			<canvas id="cv" width="200" height="100"></canvas>
+			<script>
+			var c = document.getElementById("cv");
+			var ctx = c.getContext("2d");
+			ctx.moveTo(0, 0);
+			ctx.lineTo(200,100);
+			ctx.moveTo(200,0);
+			ctx.lineTo(0,100);
+			ctx.stroke();
+			</script>
+			<p></p>
+			웹프로그래밍2 과목. 황선영의 예제 공간입니다.
+		</article>
+	</section>
+ </body>
+</html>
